@@ -4,6 +4,7 @@ export interface Cliente {
     email: string;
     telefone: string;
     senha: string;
+    cpf: string;
 }
 
 export interface Jogo {

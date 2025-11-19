@@ -13,48 +13,18 @@
   ],
   "clientes": [
     {
-      "id": "a1c4",
-      "nome": "Bobby ",
-      "email": "bobby@gmail.com",
-      "telefone": "(33) 9998-9923",
-      "senha": "1234"
-    },
-    {
-      "id": "d4fe",
-      "nome": "Han Solo",
-      "email": "hansolo@gmail.com",
-      "telefone": "(12) 1355-3345",
-      "senha": "123456"
-    },
-    {
       "id": "aabd",
       "nome": "aldo",
       "email": "aldo@gmail.com",
-      "telefone": "11981065077",
+      "telefone": "11954651234",
       "senha": "1234",
       "cpf": "529.982.247-25"
     },
     {
-      "id": "d7a1",
-      "nome": "leo",
-      "email": "leo@leo.com",
-      "telefone": "11981065077",
-      "senha": "1234",
-      "cpf": "111.444.777-35"
-    },
-    {
-      "id": "3c7b",
+      "id": "9f94",
       "nome": "joao",
       "email": "joao@joao.com",
-      "telefone": "11987546123",
-      "senha": "1234",
-      "cpf": "426.366.778-60"
-    },
-    {
-      "id": "cf0b",
-      "nome": "luis",
-      "email": "luis@gmail.com",
-      "telefone": "11981234568",
+      "telefone": "11956452458",
       "senha": "1234",
       "cpf": "153.509.460-56"
     }
@@ -229,6 +199,22 @@
       "valor": 255.99,
       "jogoNome": [
         "Gta VI"
+      ]
+    },
+    {
+      "id": "4f40",
+      "clienteId": "cf0b",
+      "valor": 50,
+      "jogoNome": [
+        "Mickey"
+      ]
+    },
+    {
+      "id": "0700",
+      "clienteId": "9f94",
+      "valor": 30.57,
+      "jogoNome": [
+        "Castle of Illusion Starring Mickey Mouse"
       ]
     }
   ]

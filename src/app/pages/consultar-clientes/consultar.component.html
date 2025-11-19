@@ -19,6 +19,7 @@
     <p><strong>Nome:</strong> {{ clienteEncontrado.nome }}</p>
     <p><strong>Email:</strong> {{ clienteEncontrado.email }}</p>
     <p><strong>Telefone:</strong> {{ clienteEncontrado.telefone }}</p>
+    <p><strong>CPF:</strong> {{ clienteEncontrado.cpf }}</p>
 
     <div *ngIf="pedidosCliente.length > 0" class="pedidos-lista">
       <h3>Pedidos</h3>
@@ -27,7 +28,7 @@
           <tr>
             <th>ID</th>
             <th>Valor</th>
-            <th>Jogos</th> <!-- Coluna para os nomes dos jogos -->
+            <th>Jogos</th>
           </tr>
         </thead>
         <tbody>

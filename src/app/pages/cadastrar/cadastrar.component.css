@@ -74,3 +74,9 @@ input[type="password"]:focus {
   background-color: #00a86b;
   transform: scale(1.01);
 }
+
+.erro-cpf {
+  color: red !important;
+  font-size: 13px !important;
+  margin-top: -10px !important;
+}
