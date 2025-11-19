@@ -27,18 +27,36 @@
       "senha": "123456"
     },
     {
-      "id": "7034",
-      "nome": "João Junior",
-      "email": "joao@gmail.com",
-      "telefone": "(11) 9932-9945",
-      "senha": "1234"
+      "id": "aabd",
+      "nome": "aldo",
+      "email": "aldo@gmail.com",
+      "telefone": "11981065077",
+      "senha": "1234",
+      "cpf": "529.982.247-25"
     },
     {
-      "id": "984a",
-      "nome": "Jo",
-      "email": "j@gmail.com",
-      "telefone": "929993434",
-      "senha": "1234"
+      "id": "d7a1",
+      "nome": "leo",
+      "email": "leo@leo.com",
+      "telefone": "11981065077",
+      "senha": "1234",
+      "cpf": "111.444.777-35"
+    },
+    {
+      "id": "3c7b",
+      "nome": "joao",
+      "email": "joao@joao.com",
+      "telefone": "11987546123",
+      "senha": "1234",
+      "cpf": "426.366.778-60"
+    },
+    {
+      "id": "cf0b",
+      "nome": "luis",
+      "email": "luis@gmail.com",
+      "telefone": "11981234568",
+      "senha": "1234",
+      "cpf": "153.509.460-56"
     }
   ],
   "jogos": [
@@ -46,7 +64,7 @@
       "id": "1",
       "titulo": "The Last of Us",
       "genero": "Ação",
-      "preco": 54.99,
+      "preco": 54.98,
       "imagemUrl": "https://cdn.awsli.com.br/2500x2500/2614/2614028/produto/250038945/the-last-of-us-capa-ps3-us_preto-vy93n6gwwn.jpg"
     },
     {
@@ -137,7 +155,7 @@
       "id": "d216",
       "titulo": "Call of Duty Black Ops 2",
       "genero": "FPS",
-      "preco": 76.54,
+      "preco": 90,
       "imagemUrl": "https://cdn.awsli.com.br/600x450/1211/1211986/produto/117769054/bf50dd3ae3.jpg"
     }
   ],
@@ -174,6 +192,43 @@
         "Gta VI",
         "Skate 3",
         "Call of Duty Black Ops 2"
+      ]
+    },
+    {
+      "id": "39ac",
+      "clienteId": "5587",
+      "valor": 152.86,
+      "jogoNome": [
+        "Call of Duty Black Ops 2",
+        "Pokemon Emerald"
+      ]
+    },
+    {
+      "id": "588f",
+      "clienteId": "d7a1",
+      "valor": 304.97,
+      "jogoNome": [
+        "God of War",
+        "The Last of Us"
+      ]
+    },
+    {
+      "id": "f379",
+      "clienteId": "3c7b",
+      "valor": 609.94,
+      "jogoNome": [
+        "The Last of Us",
+        "God of War",
+        "The Last of Us",
+        "God of War"
+      ]
+    },
+    {
+      "id": "f841",
+      "clienteId": "cf0b",
+      "valor": 255.99,
+      "jogoNome": [
+        "Gta VI"
       ]
     }
   ]

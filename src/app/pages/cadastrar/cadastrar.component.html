@@ -3,27 +3,71 @@
 
   <div class="campo-form">
     <label for="input-nome">Nome:</label>
-    <input class="input-simples" id="input-nome" name="input-nome"
-      placeholder="Insira o seu Nome" type="text" [(ngModel)]="cliente.nome" />
+    <input
+      class="input-simples"
+      id="input-nome"
+      name="input-nome"
+      placeholder="Insira o seu Nome"
+      type="text"
+      [(ngModel)]="cliente.nome"
+    />
   </div>
 
   <div class="campo-form">
     <label for="input-email">E-mail:</label>
-    <input class="input-simples" id="input-email" name="input-email"
-      placeholder="Insira o seu Email" type="email" [(ngModel)]="cliente.email" />
+    <input
+      class="input-simples"
+      id="input-email"
+      name="input-email"
+      placeholder="Insira o seu Email"
+      type="email"
+      [(ngModel)]="cliente.email"
+    />
   </div>
 
   <div class="campo-form">
     <label for="input-telefone">Telefone:</label>
-    <input class="input-simples" id="input-telefone" name="input-telefone"
-      placeholder="Ex: (00)00000-0000" type="tel" [(ngModel)]="cliente.telefone" />
+    <input
+      class="input-simples"
+      id="input-telefone"
+      name="input-telefone"
+      placeholder="Ex: (00)00000-0000"
+      type="tel"
+      [(ngModel)]="cliente.telefone"
+    />
   </div>
 
   <div class="campo-form">
-    <label for="senha">Senha:</label>
-    <input class="input-simples" id="senha" name="senha"
-      type="password" placeholder="Insira a sua Senha" [(ngModel)]="cliente.senha" />
+    <label for="input-cpf">CPF:</label>
+    <input
+      class="input-simples"
+      id="input-cpf"
+      name="input-cpf"
+      placeholder="Ex: 123.456.789-10"
+      type="text"
+      maxlength="14"
+      [(ngModel)]="cliente.cpf"
+      (input)="formatarCPF()"
+    />
   </div>
 
-  <button type="button" class="input-submeter" (click)="submeter()">Cadastrar</button>
+  <p *ngIf="cpfInvalido" style="color: red; font-size: 13px; margin-top: -10px">
+    CPF inválido!
+  </p>
+
+  <div class="campo-form">
+    <label for="senha">Senha:</label>
+    <input
+      class="input-simples"
+      id="senha"
+      name="senha"
+      type="password"
+      placeholder="Insira a sua Senha"
+      [(ngModel)]="cliente.senha"
+    />
+  </div>
+
+  <button type="button" class="input-submeter" (click)="submeter()">
+    Cadastrar
+  </button>
 </form>
